@@ -13,7 +13,7 @@ zpump0=np.zeros(202,dtype=complex)
 # and the superposition coefficient bi between the two wave packets
 k0=0.03
 ksita=1.57
-ksita1=ksita-np.pi
+ksita1=-1.58
 bi=1
 # initial lattice-site array for the second wavepack
 Zpump0=np.zeros(202,dtype=complex)
@@ -21,7 +21,7 @@ Zpump0=np.zeros(202,dtype=complex)
 # kappa and gainloss are rescaled by 2pi/F to preserve the parameter ratios when F is set to 2pi
 F =0.13
 kappa = 0.6*np.pi/F
-gainloss = 0.3*np.pi/F
+gainloss = 0.16*np.pi/F
 # Construct the two Gaussian wave packets defined by the above parameters
 for i in range (202):
     zpump0[i]=np.exp(-(k0*(100-i)**2))*np.exp(1.0j*(i)*ksita)

@@ -7,3 +7,4 @@ The simulations are performed in dimensionless units, following the parameter co
 
 This code is provided for research and reproducibility purposes. If you use this repository in your work, please cite our work:
 DOI: https://doi.org/10.1103/snm3-mb3y
+All numerical data reported in the article can be generated directly from the Python scripts provided in this repository. No external experimental datasets are required.
